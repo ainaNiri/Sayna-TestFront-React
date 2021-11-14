@@ -34,7 +34,7 @@ function Section1(){
                 <p> Great for individuals and business</p>
             </div>
             <div className='foot'>
-                <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Fhealth-family-1.png?alt=media&token=9a463edf-d87a-4570-a04c-0d7de51e9633" alt="" width={1000}/>
+                <img className="family" src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Fhealth-family-1.png?alt=media&token=9a463edf-d87a-4570-a04c-0d7de51e9633" alt="" width={1000}/>
                 <div className='foot-right'>
                     <div className="section">Monotonectally deploy seamless data and  ressource maximizing systems</div>
                     <h4>Great for individuals and small  families up to 4 numbers.</h4>

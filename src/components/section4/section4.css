@@ -18,3 +18,19 @@
 .image-zone{
     margin-left: 350px;
 }
+
+@media screen and (max-width: 650px) {
+    .section4{
+        position: static;
+    }
+    .text-zone{
+        width: 80%;
+        position: static;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .image-zone{
+        display: none;
+    }
+}

@@ -17,6 +17,7 @@
 .price-container{
     margin-top: 70px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 }
@@ -58,4 +59,15 @@
     box-shadow: 0 2px 2px -1px gray;
     border-radius: 5px;
     padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1126px) {
+    .section6{
+        height: 1300px;
+    }
+}
+@media screen and (max-width: 756px) {
+    .section6{
+        height: 1700px;
+    }
 }

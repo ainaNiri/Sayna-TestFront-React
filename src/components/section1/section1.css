@@ -6,6 +6,7 @@
 .head{
     display: flex;
     flex-direction: column;
+    height: 750px;
 }
 
 .logo{
@@ -136,9 +137,52 @@ a:hover{
 }
 
 .foot-right{
+    display: flex;
+    flex-direction: column;
     margin-left: -220px;
     width: 650px;
 }
 .tick{
     margin-left: 15px;
+}
+
+@media screen and (max-width: 1282px) {
+    .foot-right{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        padding: 10%;
+        width: 80%;
+    }
+    .family{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 554px) {
+    .head{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .head-right{
+        display: none;
+    }
+
+    .section{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 556px) {
+    .foot-right{
+        width: 100%;
+    }
 }
