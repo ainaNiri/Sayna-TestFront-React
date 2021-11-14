@@ -1,0 +1,20 @@
+.section4{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.text-zone{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.image-zone{
+    margin-left: 250px;
+}

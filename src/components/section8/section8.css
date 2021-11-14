@@ -1,0 +1,39 @@
+.section8{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+    padding-bottom: 50px;
+    background-color: #eff2f5;
+}
+
+.section8 footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us, .section8 li, .copyright{
+    color: gray;
+    font-weight: 500;
+}
+
+.about-us{
+    width: 400px;
+}
+
+.section8 li{
+    text-decoration: none;
+    padding-bottom: 5px;
+    width: 300px;
+    list-style: none;
+}
+.section8 ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    justify-content: center;
+}

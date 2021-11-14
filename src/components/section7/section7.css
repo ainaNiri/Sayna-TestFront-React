@@ -1,0 +1,46 @@
+.section7{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 100px;
+    position: relative;
+    height: 710px;
+}
+
+.section7-background{
+    display: flex;
+    margin-left: 41vh;
+    z-index: 15;
+
+}
+
+.tab{
+    padding: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 500px;
+    border: 1px solid #d2dbe0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: rgb(54, 54, 182);
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.question{
+    margin-right: 150px;
+}
+
+.family-illustration{
+    margin-top: -30px;
+}
+
+.quote-7{
+    position: absolute;
+    left: 30vh;
+    top: 65vh;
+    background-color: white;
+    z-index: 20;
+}
