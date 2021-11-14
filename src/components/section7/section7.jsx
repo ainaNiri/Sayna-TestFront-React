@@ -7,10 +7,10 @@ export default function Section7(){
         <div className="section7">
             <div className="section7-background">
                 <div className="question">
-                    <Tab content="What are the document required for claiming?"/>
-                    <Tab content="Which are the network hospitals in your vicinity?"/>
-                    <Tab content="Will I get covered for my pre-exisiting illness?"/>
-                    <Tab content="Is maternity covered for my pre-existing illness?"/>
+                    <Tab content="What are the document required for claiming?" display="block"/>
+                    <Tab content="Which are the network hospitals in your vicinity?" display="none"/>
+                    <Tab content="Will I get covered for my pre-exisiting illness?" display="none"/>
+                    <Tab content="Is maternity covered for my pre-existing illness?" display="none"/>
                 </div>
                 <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section7%2Fimage%2Ffamily-illustration-1.png?alt=media&token=d28f5f4a-62bf-4775-9c31-6df48b3a863f" alt="" className="family-illustration"/>
             </div>

@@ -10,7 +10,7 @@ export default function Section5(){
                 subTitle="We offer no questions asked refund policy for 14 days from the policy date."
                 paddingTop={50}
                 paddingBottom={50}
-                left= {77}
+                left= {257}
             />
         </div>
     ); 

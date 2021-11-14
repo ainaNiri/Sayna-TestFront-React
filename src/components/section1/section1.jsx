@@ -30,7 +30,7 @@ function Section1(){
                 </div>
             </div>
             <div className='center'>
-                <h2> A new take on insurance</h2>
+                <div style={{fontSize: 30, fontWeight: 700}}> A new take on insurance</div>
                 <p> Great for individuals and business</p>
             </div>
             <div className='foot'>

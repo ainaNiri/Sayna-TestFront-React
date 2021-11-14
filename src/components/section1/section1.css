@@ -51,6 +51,12 @@ a{
     text-decoration: none;
     font-size: 14px;
     color: rgb(48, 46, 46);
+    transition: color 0.5s ,font-size 0.5s;
+}
+
+a:hover{
+    color: black;
+    font-size: 15px;
 }
 
 .head-left-bottom p{
@@ -84,9 +90,16 @@ a{
 
 .c-1{
     display: flex;
-    margin-bottom: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
+    margin-left: -26px;
+    box-shadow: none;
     align-items: center;
+    padding: 20px;
+    transition: box-shadow 0.5s
+}
+
+.c-1:hover{
+    box-shadow: 2px 1px 2px 0px rgb(151, 150, 150);
 }
 
 .center{
@@ -123,7 +136,7 @@ a{
 }
 
 .foot-right{
-    margin-left: -250px;
+    margin-left: -220px;
     width: 650px;
 }
 .tick{
