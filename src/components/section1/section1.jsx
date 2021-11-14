@@ -10,10 +10,10 @@ function Section1(){
                         <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Flogo.png?alt=media&token=6debb893-0583-4591-9f60-d36a0555b80c" alt="" className="logo" width={90} height={30}/>
                         <ul className='nav-bar'>
                             <li>
-                                <a href=''>For You &  Family</a>
+                                <a href='/'>For You & Family</a>
                             </li>
                             <li>
-                                <a href=''>For Business</a>
+                                <a href='/'>For Business</a>
                             </li>
                         </ul>
                     </nav>
@@ -25,7 +25,7 @@ function Section1(){
                         <div className='button'>Get your free Quote</div>
                     </div>
                     <div className='head-right'>
-                        <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Fbanner-1.png?alt=media&token=84e75d71-b220-4dd9-bae9-5a418713fc99" width={900} className="banner"/>
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Fbanner-1.png?alt=media&token=84e75d71-b220-4dd9-bae9-5a418713fc99" width={900} className="banner" alt=""/>
                     </div>
                 </div>
             </div>
