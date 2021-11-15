@@ -28,6 +28,7 @@ header{
 .head-left{
     margin-top: 150px;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     width: 400px;
 }
@@ -71,13 +72,13 @@ a:hover{
 }
 
 .button{
-    margin-top: 5px;
-    padding: 10px;
+    font-size: 15px;
     display: flex;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     justify-content: center;
     align-items: center;
-    width: 170px;
-    height: 30px;
     color: white;
     font-weight: 600;
     border-radius: 5px;

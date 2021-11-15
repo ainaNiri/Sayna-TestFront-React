@@ -3,8 +3,8 @@ import './quote.css'
 export default function Quote(props){
     return(
         <div className='quote'>
-            <img src={props.image} alt="" className='shield' width={80} style={{left: props.left}}/>
-            <div className='card-quote' style={{paddingTop: props.paddingTop, paddingBottom: props.paddingBottom, width: props.width}}>
+            <img src={props.image} alt="" className='shield' width={110} height={110}/>
+            <div className='card-quote'>
                 <div className='text'>
                     <div style={{fontSize: 22, fontWeight: 600, marginBottom: 10}}>
                         {props.title}
@@ -13,9 +13,9 @@ export default function Quote(props){
                         {props.subTitle}
                     </div>
                 </div>
-                <div className='button-quote'>
+                <button className='button-quote'>
                     Get your free Quote
-                </div>
+                </button>
             </div>
         </div>
     ); 

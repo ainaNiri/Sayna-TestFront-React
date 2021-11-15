@@ -20,9 +20,9 @@ function Section1(){
                 </header>
                 <div className="head-bottom">
                     <div className='head-left'>
-                        <p>HELLO, WE ARE FINCORP</  p>
-                        <h1>Insurance <br/>  made easy. </h1>
-                        <div className='button'>Get your free Quote</div>
+                        <p>HELLO, WE ARE FINCORP</ p>
+                        <h1>Insurance<br/> made easy. </h1>
+                        <button className='button'>Get your free Quote</button>
                     </div>
                     <div className='head-right'>
                         <img src="https://firebasestorage.googleapis.com/v0/b/fincorp-4d39c.appspot.com/o/section1%2Fimage%2Fbanner-1.png?alt=media&token=84e75d71-b220-4dd9-bae9-5a418713fc99" width={900} className="banner" alt=""/>

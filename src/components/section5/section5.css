@@ -9,8 +9,8 @@
 }
 @media screen and (max-width: 800px) {
     .section5{
-        width: 100%;
-        margin: 5%;
+        width: 80%;
+        margin-left: 10%;
         position: static;
     }
 }

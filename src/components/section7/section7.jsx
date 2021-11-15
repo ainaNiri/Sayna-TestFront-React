@@ -21,7 +21,8 @@ export default function Section7(){
                     subTitle='At fincorp, we are commited top-notch services to our customers.'
                     paddingTop={50}
                     paddingBottom={50}
-                    left={'-5.7%'}
+                    paddingleft={'-10%'}
+                    width={'900px'}
                 />
             </div>
         </div>

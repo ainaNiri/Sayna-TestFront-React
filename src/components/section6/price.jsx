@@ -17,9 +17,9 @@ export default function Price(props){
                 <Tile content="Equity invested supply chains"/>
                 {props.children}
             </div>
-            <div style={{background: props.buttonColor}} className='price-button'>
+            <button style={{background: props.buttonColor}} className='price-button'>
                 Choose Plan
-            </div>
+            </button>
         </div>
     );
 
